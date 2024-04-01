@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-chainlink-telos",
+  "scripts": {
+    "run-node": "npx hardhat chainlink:sandbox:node run"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "@chainlink/hardhat-chainlink": "^0.0.4"
+  }
+}
